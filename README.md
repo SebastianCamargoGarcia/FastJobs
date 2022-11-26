@@ -60,10 +60,12 @@ Luego de clonarlo, es de suma importancia realizar paso 2 y 3.
 # Paso 1: Clonar el repositorio
 $ git clone https://github.com/SebastianCamargoGarcia/FastJobs
 
-# Paso 2: Dependecias gorilla 
-$ go get github.com/gorilla/mux
+# Paso 2: Buscar la carpeta de XAMPP, abrir la carpeta de htdocs y copiar el documento de FastJobs
 
-# Paso 3: Iniciar el servidor (Asegurarse que está en la ruta correcta del proyecto)
+# Paso 3: Iniciar en XAMPP el Apache y MySQL 
+
+# Paso 4: Ir al navegador (Chrome como recomendación) e ingresar la dirección donde se encuentra el documento iniciando con un localhost/, ejemplo
+localhost/FastJobss/user-login.html
 ```
 
 ## Postman
