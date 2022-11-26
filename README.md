@@ -36,11 +36,12 @@
 - Manejos en la base de datos
 
 * Conexión a la base de datos.
-* Captura de los datos e inserción de los mismo en la base dato
+* Captura de los datos e inserción de los mismo en la base datos
 
-$conexion_empleador = mysqli_connect('localhost', 'root', '', 'fastjobs') or die(mysql_error($mysqli));
-insertar_empleador($conexion_empleador);
-function insertar_empleador($conexion_empleador){
+```bash
+    $conexion_empleador = mysqli_connect('localhost', 'root', '', 'fastjobs') or die(mysql_error($mysqli));
+    insertar_empleador($conexion_empleador);
+    function insertar_empleador($conexion_empleador){
 
     $nombreempleador =$_POST['nombreempleador'];
     $correoEmpleador = $_POST['correoempleador'];
@@ -49,10 +50,7 @@ function insertar_empleador($conexion_empleador){
     $direccionempleador=$_POST['direccionempleador'];
     $consulta_empleador = "INSERT INTO cuentas_empleador(nombreempleador, correoempleador, telefonoempleador, identificacionempleador, direccionempleador):}
 
-    
-
 ```
-
 ## Descargar
 
 Para descargar y compilar es necesario [Git](https://git-scm.com), SE RECOMIENDA EL USO DEL IDE [Visual Studio Code](https://code.visualstudio.com/)
